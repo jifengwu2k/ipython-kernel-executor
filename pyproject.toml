@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ipython-kernel-executor"
+version = "0.1.1"
+description = "A lightweight Python package to execute code in an isolated IPython kernel and capture results, stdout, and stderr."
+readme = "README.md"
+requires-python = ">=2"
+license = "MIT"
+authors = [
+  { name="Jifeng Wu", email="jifengwu2k@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "jupyter-client",
+    "ipykernel",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jifengwu2k/ipython-kernel-executor"
+"Bug Tracker" = "https://github.com/jifengwu2k/ipython-kernel-executor/issues"
